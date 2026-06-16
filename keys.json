@@ -6,10 +6,10 @@
       "type": "trial",
       "created": "2024-01-01"
     },
-    "DEMO-PRO-X9K3": {
+    "TESTER": {
       "status": "active",
       "expires": "2026-05-20",
-      "type": "premium",
+      "type": "trial",
       "created": "2024-01-15"
     }
   },
