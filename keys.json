@@ -1,22 +1,22 @@
 {
   "keys": {
-    "DEMO-FREE-2024": {
+    "FITNES-2024-PRO": {
       "status": "active",
-      "expires": "2025-12-31",
-      "type": "trial",
-      "created": "2024-01-01"
+      "type": "premium",
+      "expires": "2025-12-31"
     },
-    "MARK": {
+    "FITNES-2024-TEST": {
       "status": "active",
-      "expires": "2026-12-20",
-      "type": "trial",
-      "created": "2024-01-15"
+      "type": "standard",
+      "expires": "2024-12-31"
+    },
+    "FITNES-VIP-001": {
+      "status": "active",
+      "type": "vip",
+      "expires": "2026-06-01"
     }
   },
-  "blacklist": [],
-  "settings": {
-    "version": "1.0",
-    "check_interval": 3600,
-    "require_hwid": false
-  }
+  "blacklist": [
+    "FITNES-BANNED-999"
+  ]
 }
